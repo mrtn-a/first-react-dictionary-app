@@ -14,7 +14,7 @@ const doTranslation = async (input, languageCode, cancelToken) => {
 
     return data.data.translations[0].translatedText;
   } catch (err) {
-    return "";
+    return "...";
   }
 };
 
